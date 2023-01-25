@@ -5,13 +5,12 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     </head>
     <body>
-        <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="../static/script.js"></script>
+        
         <i class="bi bi-list menu-mobile"></i>
         <aside id="header">
             <section class="profile">
                 <img src="../static/img/crono.jpg" alt="Minha Foto">
-                <h1>Kevin Washington</h1>
+                <h1> Kevin Washington </h1>
                 <div class="social-links mt-4 text-center">
                     <a href="">
                         <i class="bi bi-instagram"></i>
@@ -28,21 +27,22 @@
                     </div>
 
             </section>
+        >
             <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-house"></i> Inicio</a>
+                  <a class="nav-link" href="#inicio"><i class="bi bi-house"></i> Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-person"></i> Sobre</a>
+                    <a class="nav-link" href="#sobre"><i class="bi bi-person"></i> Sobre</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-list-check"></i> Hablidades</a>
+                    <a class="nav-link" href="#habilidades"><i class="bi bi-list-check"></i> Hablidades</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-file-earmark"></i> Curriculo</a>
+                    <a class="nav-link" href="#curriculo"><i class="bi bi-file-earmark"></i> Curriculo</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-collection"></i> Portifolio</a>
+                    <a class="nav-link" href="#portifolio"><i class="bi bi-collection"></i> Portifolio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#"><i class="bi bi-envelope"></i> Contato</a>
@@ -50,6 +50,8 @@
             </ul>
             <nav id="navbar" class="nav-menu"></nav>
         </aside>
+        <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../static/script.js"></script>
         <main id="main">
             <section id="inicio" class="row">
                 <div id="coluna-1" class="col-md-5">
@@ -59,8 +61,159 @@
                 <div id="coluna-2" class="col-md-7">
                     <div id="arraste">
                         <i class="bi bi-arrow-down" aria-hidden="true"></i>
-                        <a href="">Arraste para saber mais</a>
+                        <a href="#sobre">Arraste para saber mais</a>
                     </div>
+                </div>
+            </section>
+            <section id="sobre" class="container mt-5">
+                <div class="row w-100">
+                    <div class="col-md-12">
+                        <h2 class="pt-3"> Sobre </h2>
+                        <p>
+                            Nesta pagina apresento um pouco do meu trabalho
+                        </p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="../static/img/external_cover.jpg">
+                        </div>
+                        <div class="col-md-8">
+                            <h3> Aluno</h3>
+                            <p></p>
+    
+                            <div class="row mt-3 mb-3">
+                                <div class="col-md-8">
+                                    <ul class="list-group list-group-flash fs-5 ">
+                                        <li class="list-group-item">
+                                            Área: <span class="fw-lighter"> Informática</span>
+                                        </li>
+                                        <li class="list-group-item"> 
+                                            Escola: <span class="fw-lighter"> Instituto Federeal de Minas Gerais</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            Campus: <span class="fw-lighter"> Sabará</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            Residência: <span class="fw-lighter"> Sabará</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            Estado: <span class="fw-lighter"> Minas Gerais</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-5 section-bg" id="habilidades">
+                <div class="container pb-5">
+                    <h2 class="pt-5">Habilidades</h2>
+                    <p> Nesta seção apresento um pouco dos conhecimentos que possuo na área.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="mt-3 mb-0"> HTML</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="50" 
+                                data-anime="left" aria-valuemin="0" aria-valuemax="100"> 50%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                        </div>
+                    </div>
+                    <hr class="w-50 me-auto ms-auto">
+
+                    <div class="row">
+
+                    </div>
+                </div>
+
+            </section>
+            <section id="curriculo" class="mt-5 cv">
+                <div class="container pb-5">
+                    <h2 class="pt-3 pb-4"> Currículo</h2>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="cv-title"> Educação:</h3>
+                            <div class="cv-item">
+                                <h4>Ensino Médio Integrado</h4>
+                                <h5>2020-2023</h5>
+                                <p><em> Instituto Federal de Minas Gerais </em></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="portifolio" class="section-bg mt-5">
+                <div class="container pb-5 pt-5">
+                    <h2 class="pb-4">Portifólio
+                    </h2>
+                    <div id="carouselPortifolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel Portifolio" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="slide 1"></button>
+                            <button type="button" data-bs-target="#carousel Portifolio" data-bs-slide-to="1"
+                                aria-label="slide 2"></button>
+                        
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="../static/img/cadastro.jpg" class="card-img-top img-fluid w-100"
+                                            alt="Site de cadastro">
+                                            <div class="card-body">
+                                                <h5 class="card-title"> Site de cadastro</h5>
+                                                <p class="card-text"> Site de cadastro de jogos e email</p>
+                                                <div class="d-flex justify-content-center">
+                                                    <a href="https://github.com/Novigod/jogoteca-1" target="_blank" class="btn btn-outline-primary"> <i class="bi bi-link-45deg"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="carousel-item">
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="card">
+                                        <img src="../static/img/igreja.jpg" class="card-img-top img-fluid w-100"
+                                        alt="Site Projetec">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Projetec</h5>
+                                            <p class="card-text"> Projeto de site para igrejas</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/Novigod/Projetec-Main"
+                                                    target="_blank" class="btn btn-outline-dark me-3"><i
+                                                    class="bi bi-github"></i></a>
+                                                <a href="https://github.com/Novigod/Projetec-Main" target="_blank"
+                                                    class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortifolio"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPortifolio"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        
+                        </button>     
+                    </div>    
                 </div>
             </section>
         </main>
